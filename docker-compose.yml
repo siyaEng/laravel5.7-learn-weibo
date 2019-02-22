@@ -1,7 +1,7 @@
 version: '3'
 services:
-  laravel5.7-learn:
-    container_name: laravel5.7-learn
+  laravel5.7-learn-weibo:
+    container_name: laravel5.7-learn-weibo
     build: docker
     volumes:
       - $HOME:/root/.ssh
